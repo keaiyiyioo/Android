@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Play with Ball</string>
+    <string name="game1">Game1</string>
+    <string name="rule1.1">1. Click the target circle with RED color.</string>
+    <string name="rule1.2">2. You have five hearts,and no heart means game over.</string>
+    <string name="rule1.3">3. All circles will disappear, missing means lost one heart.</string>
+    <string name="game2">Game2</string>
+    <string name="rule2.1">1. You can control the biggest ball. </string>
+    <string name="rule2.2">2. You should try your best to avoid the other ball, or will lose heart.</string>
+    <string name="rule2.3">3. You have five hearts,and no heart means game over.</string>
+    <string name="rule2.4">5. More and more target will appear, try your best</string>
+    <string name="rule2.5">4. Everytime touch a target, you will become bigger.</string>
+</resources>

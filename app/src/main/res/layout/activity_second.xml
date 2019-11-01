@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/game2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/game2"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:text="@string/rule2.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rule2.1"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp"/>
+
+    <TextView
+        android:text="@string/rule2.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rule2.2"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+    <TextView
+        android:text="@string/rule2.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rule2.3"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+    <TextView
+        android:text="@string/rule2.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rule2.5"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+    <TextView
+        android:text="@string/rule2.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rule2.4"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_weight="0.73" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonLogout2"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonStart2"
+            android:textAllCaps="false"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
